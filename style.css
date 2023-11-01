@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+:root {
+    /* ## Colors */
+
+    /* ### Primary */
+    
+    --grayish-blue: hsl(237, 18%, 59%);
+    --soft-red: hsl(345, 95%, 68%);
+    
+    /* ### Neutral */
+    
+    --white: hsl(0, 0%, 100%);
+    --dark-desaturated-blue: hsl(236, 21%, 26%);
+    --very-dark-blue: hsl(235, 15%, 14%);
+    --mostly-black-blue: hsl(234, 17%, 12%);
+    --dark-purple: hsl(268, 22%, 13%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
