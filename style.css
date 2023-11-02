@@ -49,6 +49,22 @@ body {
     padding-bottom: 5rem;
 }
 
+footer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    bottom: 4rem;
+}
+
+footer .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
