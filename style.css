@@ -42,6 +42,13 @@ body {
     background-size: contain;
 }
 
+.container h1 {
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    padding-bottom: 5rem;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
