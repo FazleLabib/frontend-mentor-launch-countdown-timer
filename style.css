@@ -148,6 +148,15 @@ footer .contact {
 
 }
 
+footer .contact img {
+    cursor: pointer;
+    transition: filter .2s ease-out;
+}
+
+footer .contact img:hover {
+    filter: invert(54%) sepia(21%) saturate(3167%) hue-rotate(309deg) brightness(100%) contrast(98%);
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
