@@ -171,3 +171,63 @@ footer .contact img:hover {
 .attribution a { 
     color: var(--soft-red); 
 }
+
+@media screen and (max-width: 745px) {
+
+    .background {
+        background-position: right bottom, center top;
+        background-size: 350%, auto;
+        background-position-x: 80%, 100%;
+    }
+
+    .container h1 {
+        font-size: 1.25rem;
+        padding-bottom: 4rem;
+    }
+
+    .timer {
+        gap: 1rem;
+    }
+
+    .card {
+        width: 5rem;
+    }
+    
+    .top::before, .top::after, .bottom::before, .bottom::after {
+        top: 90%;
+        left: -0.25rem;
+        width: 0.5rem;
+    }
+    
+    .top::after, .bottom::before{
+        left: auto;
+        right: -0.25rem;
+    }
+    
+    .bottom::before, .bottom::after {
+        top: -10%;
+    }
+    
+    .top span, .bottom span {
+        font-size: 2.5rem;
+    }
+    
+    .top span {
+        top: 0.85rem;  
+    }
+    
+    .bottom span {
+        bottom: 1.65rem;
+    }
+    
+    .timer-item p {
+        letter-spacing: 0.25rem;
+        font-size: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    footer {
+        gap: 1.5rem;
+        bottom: 1rem;
+    }
+}
