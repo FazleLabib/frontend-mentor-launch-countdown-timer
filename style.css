@@ -43,12 +43,17 @@ body {
     z-index: -1;
 }
 
+.container {
+    margin-bottom: 12rem;
+}
+
 .container h1 {
     color: var(--white);
     text-transform: uppercase;
     text-align: center;
+    font-size: 1.5rem;
     letter-spacing: 0.5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
 }
 
 .timer {
