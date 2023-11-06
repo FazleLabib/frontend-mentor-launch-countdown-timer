@@ -33,12 +33,12 @@ function updateCountdown() {
 
         topDay.innerHTML = days;
         topHour.innerHTML = hours;
-        topDay.innerHTML = minutes;
+        topMinute.innerHTML = minutes;
         topSecond.innerHTML = seconds;
 
         bottomDay.innerHTML = days;
         bottomHour.innerHTML = hours;
-        bottomDay.innerHTML = minutes;
+        bottomMinute.innerHTML = minutes;
         bottomSecond.innerHTML = seconds;
 
     }
