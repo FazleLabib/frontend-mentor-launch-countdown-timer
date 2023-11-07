@@ -67,4 +67,4 @@ I did not try the bonus section of animating the flip cards, but would like to t
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/FazleLabib)
+- Frontend Mentor - [@FazleLabib](https://www.frontendmentor.io/profile/FazleLabib)
